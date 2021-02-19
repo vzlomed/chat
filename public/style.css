@@ -1,0 +1,104 @@
+.main {
+    background: rgb(246, 249, 252);;
+}
+.style-block {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border: 1px solid rgb(236, 239, 241);
+    border-radius: 4px;
+    box-shadow: rgba(17, 51, 83, 0.02) 0px 4px 12px 0px;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+}
+
+.coin-logo {
+    width: 64px;
+}
+
+.chat-input {
+    color: white;
+    
+}
+
+.chat-canvas {
+    margin: auto;
+    min-height: 500px;
+    width: 95%;
+    height: 100%;
+}
+
+.label {
+    display: inline-block;
+    margin: 0;
+}
+@media (max-width: 650px) {
+    .date {
+        display: none;
+    }
+}
+
+.chat-el {
+    border: 1px solid rgb(236, 239, 241);
+    border-radius: 4px;
+    box-shadow: rgba(17, 51, 83, 0.02) 0px 4px 12px 0px;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+    white-space: pre-wrap;
+}
+
+.sidebar {
+    box-shadow: rgba(17, 51, 83, 0.02) 0px 4px 12px 0px;
+    height: 100%;
+}
+
+.block-label {
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    padding: 16px 24px;
+    border-bottom: 1px solid rgb(236, 239, 241);
+    border-top: none;
+    flex-shrink: 0;
+    font-size: 10px;
+}
+
+.block-label > h3 {
+    font-size: 20px;
+}
+
+.row-label {
+    font-family: Graphik, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    line-height: 1.3;
+    color: rgb(5, 15, 25);
+    font-size: 18px;
+    font-weight: 400;
+    overflow: hidden;
+    word-break: break-all;
+    max-width: 25%;
+    min-width: 1em;
+}
+
+.row-block {
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    padding: 16px 24px;
+    border-bottom: 1px solid rgb(236, 239, 241);
+    border-top: none;
+    flex-shrink: 0;
+    font-size: 9px;
+}
+
+.message {
+    margin: 0;
+    overflow-wrap: break-word;
+}
